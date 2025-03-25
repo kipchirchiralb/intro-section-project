@@ -1,0 +1,23 @@
+header {
+  display: flex;
+  padding: 40px;
+}
+header a {
+  color: black;
+  text-decoration: none;
+  padding: 7px;
+}
+#user-nav {
+  margin-left: auto;
+}
+/* css flex */
+main {
+  display: flex;
+  gap: 20px;
+}
+main > div {
+  flex: 1;
+}
+#right-side img {
+  width: 100%;
+}
